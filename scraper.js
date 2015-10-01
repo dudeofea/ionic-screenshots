@@ -1,6 +1,9 @@
-/* URLS to scrape */
-var urls = ['/'];
-var url_prefix = 'http://localhost:8888/';
+/* Actions to take */
+var actions = [
+	['go', '/'],
+	['login', '']
+];
+var url_prefix = 'http://localhost:8888/#';
 
 /* Screen Sizes to use */
 var sizes = [
@@ -13,9 +16,9 @@ var sizes = [
 
 var page = require('webpage').create();
 page.viewportSize = {width: sizes[0].w, height: sizes[0].h};
-page.open(url_prefix + urls[0], function(status) {
+page.open(url_prefix + actions[0][1], function(status) {
 	setTimeout(function(){
 		page.render('out.png');
 		phantom.exit();
-	}, 3000);
+	}, 100);
 });
