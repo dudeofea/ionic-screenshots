@@ -6,3 +6,11 @@ Make sure you have the latest version of Ionic and PhantomJS, as this requires t
 
 # Usage
 Running `./run.sh <ionic folder>` will generate all the needed screenshots under a "screenshots" folder, organized by device.
+
+# Info
+
+Progress: ~40%
+
+What's missing:
+- The actual code to loop through all the pages
+- The code to process actions
