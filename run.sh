@@ -1,6 +1,6 @@
 ORG_PATH=`pwd`
 cd $1
-ionic serve -p 8888 &
+node $ORG_PATH/node_modules/.bin/http-server -p 8888 www > /dev/null &
 IONIC_PID=$!
 cd $ORG_PATH
 phantomjs $ORG_PATH/scraper.js

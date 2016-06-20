@@ -1,0 +1,22 @@
+{
+  "name": "ionic-screenshots",
+  "version": "1.0.0",
+  "description": "Takes screenshots of ionic projects",
+  "main": "run.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudeofea/ionic-screenshots.git"
+  },
+  "author": "Denis Lachance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudeofea/ionic-screenshots/issues"
+  },
+  "homepage": "https://github.com/dudeofea/ionic-screenshots#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
